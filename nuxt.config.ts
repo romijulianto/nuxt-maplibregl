@@ -8,4 +8,5 @@ export default defineNuxtConfig({
       apiBase: "",
     },
   },
+  css: ["maplibre-gl/dist/maplibre-gl.css"],
 });
