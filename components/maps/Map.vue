@@ -18,7 +18,7 @@ onMounted(() => {
       attributionControl: false,
     });
 
-    map.addControl(new maplibregl.NavigationControl(), "top-right");
+    map.addControl(new maplibregl.NavigationControl(), "bottom-right");
   }
 });
 </script>
