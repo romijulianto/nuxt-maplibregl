@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     apiSecret: process.env.NUXT_API_SECRET,
     public: {
       apiBase: "",
+      urlMapLibre: process.env.NUXT_URL_MAPLIBRE,
     },
   },
   css: ["maplibre-gl/dist/maplibre-gl.css"],

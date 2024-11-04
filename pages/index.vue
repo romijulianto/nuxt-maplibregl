@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import Base from "~/components/maps/Base.vue";
+import Map from "~/components/maps/Map.vue";
 import { useRoute, useAppConfig } from "nuxt/app";
 
 const route = useRoute();
 const appConfig = useAppConfig();
 
-//console.log(appConfig.theme);
 </script>
 
 <template>
   <div>
-    <Base />
+    <Map />
   </div>
 </template>
