@@ -10,12 +10,15 @@ const mapContainer = ref<HTMLDivElement | null>(null);
 
 onMounted(() => {
   if (mapContainer.value) {
-    new maplibregl.Map({
+    const map = new maplibregl.Map({
       container: mapContainer.value,
       style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
       center: [117.9213, -0.7893],
       zoom: 4.2,
+      attributionControl: false,
     });
+
+    map.addControl(new maplibregl.NavigationControl(), "top-right");
   }
 });
 </script>
