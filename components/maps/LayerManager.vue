@@ -1,11 +1,13 @@
-<script setup></script>
+<script setup lang="ts">
+
+</script>
 
 <template>
   <div id="container" class="w-full h-full">
     <div
-      id="header"
+      id="header-layer-manager"
       v-show="true"
-      class="bg-[#F8F8F8] absolute top-2 right-2 rounded-md w-[25%] h-11 px-2 mt-1 py-2"
+      class="bg-[#F8F8F8] absolute top-2 right-2 rounded-t-md w-[25%] h-11 px-2 mt-1 py-2"
     >
       <div class="flex justify-between items-center">
         <div class="flex">
@@ -22,6 +24,12 @@
         </div>
       </div>
     </div>
-    <div id="content"></div>
+    <div
+      id="content"
+      class="bg-white absolute top-[3.3rem] right-2 rounded-b-lg w-[25%] h-[70%] px-2 py-2"
+    >
+    </div>
   </div>
 </template>
+
+<style scoped></style>
