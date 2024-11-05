@@ -1,11 +1,9 @@
-<script setup lang="ts">
-const runtimeConfig = useRuntimeConfig()
-console.log(runtimeConfig.apiSecret)
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-  </div>
   <NuxtPage />
 </template>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+</style>

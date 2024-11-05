@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         sans: ["Plus Jakarta Sans Variable", "sans-serif"],
         mono: ["Roboto Mono Variable", "sans-serif"],
+        sora: ["Sora", "sans-serif"],
       },
     },
   },

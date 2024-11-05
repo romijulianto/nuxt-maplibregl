@@ -12,11 +12,5 @@ export default defineNuxtConfig({
     },
   },
   css: ["maplibre-gl/dist/maplibre-gl.css"],
-  primevue: {
-    options: {
-      theme: {
-        preset: Aura,
-      },
-    },
-  },
+  primevue: {},
 });

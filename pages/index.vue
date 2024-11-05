@@ -12,10 +12,7 @@ const appConfig = useAppConfig();
     <div id="map">
       <Map />
     </div>
-    <div
-      id="layer-manager"
-      class="bg-gray-400 absolute top-2 right-2 rounded-md p-1 w-[20%] h-[80%]"
-    >
+    <div id="layer-manager">
       <LayerManager />
     </div>
   </div>
